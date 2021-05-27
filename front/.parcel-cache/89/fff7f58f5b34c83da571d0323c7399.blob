@@ -1,0 +1,126 @@
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+//import { LinkContainer } from "react-router-bootstrap";
+var _reactBootstrap = require("react-bootstrap");
+const navbar = ()=>{
+    return(/*#__PURE__*/ _reactDefault.default.createElement("nav", {
+        class: "navbar navbar-expand-sm navbar-dark bg-dark mb-3",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 7
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "container",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 8
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("a", {
+        class: "navbar-brand",
+        href: "#",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 9
+        },
+        __self: undefined
+    }, "Navbar"), /*#__PURE__*/ _reactDefault.default.createElement("ul", {
+        class: "navbar-nav",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 12
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("li", {
+        class: "nav-item",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 13
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("a", {
+        class: "nav-link",
+        href: "#",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 14
+        },
+        __self: undefined
+    }, "Home")), /*#__PURE__*/ _reactDefault.default.createElement("li", {
+        class: "nav-item",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 18
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("a", {
+        class: "nav-link",
+        href: "#",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 19
+        },
+        __self: undefined
+    }, "About")), /*#__PURE__*/ _reactDefault.default.createElement("li", {
+        class: "nav-item",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 23
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("a", {
+        class: "nav-link",
+        href: "#",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 24
+        },
+        __self: undefined
+    }, "Services")), /*#__PURE__*/ _reactDefault.default.createElement("li", {
+        class: "nav-item",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 28
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("a", {
+        class: "nav-link",
+        href: "#",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 29
+        },
+        __self: undefined
+    }, "Contact")), /*#__PURE__*/ _reactDefault.default.createElement("li", {
+        class: "nav-item",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 33
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("a", {
+        class: "nav-link",
+        href: "#",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 34
+        },
+        __self: undefined
+    }, "Login"))))));
+};
+exports.default = navbar;
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

@@ -1,0 +1,136 @@
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+const navbar = ()=>{
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Navbar, {
+        bg: "light",
+        expand: "lg",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 6
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Navbar.Brand, {
+        href: "#home",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 7
+        },
+        __self: undefined
+    }, "React-Bootstrap"), /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Navbar.Toggle, {
+        "aria-controls": "basic-navbar-nav",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 8
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Navbar.Collapse, {
+        id: "basic-navbar-nav",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 9
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Nav, {
+        className: "mr-auto",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 10
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Nav.Link, {
+        href: "#home",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 11
+        },
+        __self: undefined
+    }, "Home"), /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Nav.Link, {
+        href: "#link",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 12
+        },
+        __self: undefined
+    }, "Link"), /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.NavDropdown, {
+        title: "Dropdown",
+        id: "basic-nav-dropdown",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 13
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.NavDropdown.Item, {
+        href: "#action/3.1",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 14
+        },
+        __self: undefined
+    }, "Action"), /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.NavDropdown.Item, {
+        href: "#action/3.2",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 15
+        },
+        __self: undefined
+    }, "Another action"), /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.NavDropdown.Item, {
+        href: "#action/3.3",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 18
+        },
+        __self: undefined
+    }, "Something"), /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.NavDropdown.Divider, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 19
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.NavDropdown.Item, {
+        href: "#action/3.4",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 20
+        },
+        __self: undefined
+    }, "Separated link"))), /*#__PURE__*/ _reactDefault.default.createElement(Form, {
+        inline: true,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 25
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(FormControl, {
+        type: "text",
+        placeholder: "Search",
+        className: "mr-sm-2",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 26
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement(Button, {
+        variant: "outline-success",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
+            lineNumber: 27
+        },
+        __self: undefined
+    }, "Search")))));
+};
+exports.default = navbar;
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

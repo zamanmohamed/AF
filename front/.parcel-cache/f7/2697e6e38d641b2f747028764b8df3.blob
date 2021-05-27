@@ -1,0 +1,105 @@
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const form = ()=>{
+    return(/*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "d-flex justify-content-center row-hl",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\form.js",
+            lineNumber: 5
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "col-lg-6 ",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\form.js",
+            lineNumber: 6
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card bg-primary  card-form",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\form.js",
+            lineNumber: 7
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card-body",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\form.js",
+            lineNumber: 8
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("form", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\form.js",
+            lineNumber: 9
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "form-group",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\form.js",
+            lineNumber: 10
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
+        for: "name",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\form.js",
+            lineNumber: 11
+        },
+        __self: undefined
+    }, "Name"), /*#__PURE__*/ _reactDefault.default.createElement("input", {
+        class: "form-control",
+        type: "text",
+        id: "name",
+        placeholder: "Enter name",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\form.js",
+            lineNumber: 12
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "form-group",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\form.js",
+            lineNumber: 19
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
+        for: "name",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\form.js",
+            lineNumber: 20
+        },
+        __self: undefined
+    }, "Name"), /*#__PURE__*/ _reactDefault.default.createElement("input", {
+        class: "form-control",
+        type: "text",
+        id: "name",
+        placeholder: "Enter name",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\form.js",
+            lineNumber: 21
+        },
+        __self: undefined
+    }))))))));
+};
+_c = form;
+exports.default = form;
+var _c;
+$RefreshReg$(_c, "form");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

@@ -1,0 +1,106 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _reactBootstrap = require("react-bootstrap");
+//import Rating from "./Rating";
+const Product = ({ product  })=>{
+    function UpdateState() {
+        console.log("ok");
+    }
+    return(/*#__PURE__*/ _reactDefault.default.createElement("tbody", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\approve\\Product.js",
+            lineNumber: 13
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("tr", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\approve\\Product.js",
+            lineNumber: 14
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("th", {
+        scope: "row",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\approve\\Product.js",
+            lineNumber: 15
+        },
+        __self: undefined
+    }, "1"), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\approve\\Product.js",
+            lineNumber: 16
+        },
+        __self: undefined
+    }, product.title), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\approve\\Product.js",
+            lineNumber: 17
+        },
+        __self: undefined
+    }, product.speaker), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\approve\\Product.js",
+            lineNumber: 18
+        },
+        __self: undefined
+    }, product.date), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\approve\\Product.js",
+            lineNumber: 19
+        },
+        __self: undefined
+    }, product.type), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\approve\\Product.js",
+            lineNumber: 20
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
+        to: `/Approved/${product._id}`,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\approve\\Product.js",
+            lineNumber: 21
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("button", {
+        onClick: UpdateState,
+        class: "btn btn-success",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\approve\\Product.js",
+            lineNumber: 22
+        },
+        __self: undefined
+    }, "Approve"))), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\approve\\Product.js",
+            lineNumber: 27
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("button", {
+        class: "btn btn-danger",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\approve\\Product.js",
+            lineNumber: 28
+        },
+        __self: undefined
+    }, "Reject")))));
+};
+_c = Product;
+exports.default = Product;
+var _c;
+$RefreshReg$(_c, "Product");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

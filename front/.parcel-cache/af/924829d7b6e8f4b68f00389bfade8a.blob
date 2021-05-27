@@ -1,0 +1,77 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _moviesList = require("./components/MoviesList");
+var _moviesListDefault = parcelHelpers.interopDefault(_moviesList);
+var _homeCss = require("./Home.css");
+var _s = $RefreshSig$();
+function App() {
+    _s();
+    const [movies, setMovies] = _react.useState([]);
+    function fetchMoviesHandler() {
+        fetch("http://localhost:5000/api/conferences").then((response)=>{
+            return response.json();
+        }).then((data)=>{
+            const transformedMovies = data.results.map((movieData)=>{
+                return {
+                    id: movieData._id,
+                    title: movieData.title,
+                    openingText: movieData.discription,
+                    releaseDate: movieData.date
+                };
+            });
+            setMovies(transformedMovies);
+        });
+    }
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 28
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("section", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 29
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("button", {
+        onClick: fetchMoviesHandler,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 30
+        },
+        __self: this
+    }, "Fetch Movies")), /*#__PURE__*/ _reactDefault.default.createElement("section", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 32
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_moviesListDefault.default, {
+        movies: movies,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 33
+        },
+        __self: this
+    }))));
+}
+_s(App, "m6SRVq9N0POigGpMlnh/6woD7xI=");
+_c = App;
+exports.default = App;
+var _c;
+$RefreshReg$(_c, "App");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

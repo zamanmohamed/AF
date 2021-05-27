@@ -1,0 +1,69 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _moviesList = require("./components/MoviesList");
+var _moviesListDefault = parcelHelpers.interopDefault(_moviesList);
+var _homeCss = require("./Home.css");
+var _s = $RefreshSig$();
+function App() {
+    _s();
+    const [cofarance, setcofarance] = _react.useState([]);
+    _react.useEffect(()=>{
+        const sendRequest = async ()=>{
+            const response = await fetch("http://localhost:5000/api/conferences");
+            const responseData = await response.json();
+            setcofarance(responseData);
+        };
+        sendRequest();
+    }, []);
+    //console.log(responseData);
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 20
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(Row, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 21
+        },
+        __self: this
+    }, products.map((product)=>/*#__PURE__*/ _reactDefault.default.createElement(Col, {
+            sm: 12,
+            md: 6,
+            lg: 4,
+            xl: 3,
+            __source: {
+                fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+                lineNumber: 23
+            },
+            __self: this
+        }, /*#__PURE__*/ _reactDefault.default.createElement(Product, {
+            product: product,
+            __source: {
+                fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+                lineNumber: 24
+            },
+            __self: this
+        }))
+    ))));
+}
+_s(App, "DeK8srw36Q9Nr5ngZj4OkfmylzU=");
+_c = App;
+exports.default = App;
+var _c;
+$RefreshReg$(_c, "App");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

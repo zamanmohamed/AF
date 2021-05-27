@@ -1,0 +1,71 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _moviesList = require("./components/MoviesList");
+var _moviesListDefault = parcelHelpers.interopDefault(_moviesList);
+var _homeCss = require("./Home.css");
+const Home = ()=>{
+    const dummyMovies = [
+        {
+            id: 1,
+            title: "Some Dummy Movie",
+            openingText: "This is the opening text of the movie",
+            releaseDate: "2021-05-18"
+        },
+        {
+            id: 2,
+            title: "Some Dummy Movie 2",
+            openingText: "This is the second opening text of the movie",
+            releaseDate: "2021-05-19"
+        }, 
+    ];
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 23
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("section", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 24
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("button", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 25
+        },
+        __self: undefined
+    }, "Fetch Movies")), /*#__PURE__*/ _reactDefault.default.createElement("section", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 27
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_moviesListDefault.default, {
+        movies: dummyMovies,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 28
+        },
+        __self: undefined
+    }))));
+};
+_c = Home;
+exports.default = Home;
+var _c;
+$RefreshReg$(_c, "Home");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

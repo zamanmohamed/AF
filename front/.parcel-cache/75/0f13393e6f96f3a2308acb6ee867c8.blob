@@ -1,0 +1,57 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _moviesList = require("./components/MoviesList");
+var _moviesListDefault = parcelHelpers.interopDefault(_moviesList);
+var _homeCss = require("./Home.css");
+var _s = $RefreshSig$();
+function App() {
+    _s();
+    const [movies, setMovies] = _react.useState([]);
+    _react.useEffect(()=>{
+        const sendRequest = async ()=>{
+            const response = await fetch("http://localhost:5000/api/users");
+            const responseData = await response.json();
+            console.log(responseData);
+        };
+        sendRequest();
+    }, []);
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 19
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement("section", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 20
+        },
+        __self: this
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_moviesListDefault.default, {
+        movies: movies,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Home.js",
+            lineNumber: 21
+        },
+        __self: this
+    }))));
+}
+_s(App, "MO6b3PSP3RIUqZ8gtSrBZBVtBbs=");
+_c = App;
+exports.default = App;
+var _c;
+$RefreshReg$(_c, "App");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

@@ -1,0 +1,102 @@
+var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _bootstrapMinCss = require("../bootstrap.min.css");
+var _reactRouterDom = require("react-router-dom");
+var _navbar = require("./component/navbar");
+var _navbarDefault = parcelHelpers.interopDefault(_navbar);
+var _login = require("./component/login");
+var _loginDefault = parcelHelpers.interopDefault(_login);
+var _register = require("./component/register");
+var _registerDefault = parcelHelpers.interopDefault(_register);
+var _home = require("./component/home/home");
+var _homeDefault = parcelHelpers.interopDefault(_home);
+var _approve = require("./component/approve/approve");
+var _approveDefault = parcelHelpers.interopDefault(_approve);
+const App = ()=>{
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 12
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_navbarDefault.default, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 13
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: "/Login",
+        exact: true,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 14
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_loginDefault.default, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 15
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: "/Approve",
+        exact: true,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 17
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_loginDefault.default, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 18
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: "/",
+        exact: true,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 20
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_homeDefault.default, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 21
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: "/Register",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 23
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_registerDefault.default, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 24
+        },
+        __self: undefined
+    }))));
+};
+_c = App;
+exports.default = App;
+var _c;
+$RefreshReg$(_c, "App");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
