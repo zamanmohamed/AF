@@ -28,12 +28,12 @@ const reviewerNavbar = () => {
                         </Link>
                     </li>
                     <li class="nav-item">
-                        <Link class="nav-link" to="/workshop">
+                        <Link class="nav-link" to="/workshop/underreview">
                                 New Workshop Proposals
                         </Link>
                     </li>
                     <li class="nav-item">
-                        <Link class="nav-link" to="#">
+                        <Link class="nav-link" to="/workshop/reviewed">
                             Reviewed Workshop Proposals
                         </Link>
                     </li>
