@@ -1,59 +1,85 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useRef } from "react";
+import { Link, useHistory } from "react-router-dom";
 
 const login = () => {
+  const emailRef = useRef("");
+  const passwordRef = useRef("");
+
+  const history = useHistory();
+
+  function submitHandler(event) {
+    event.preventDefault();
+    Login();
+  }
+
+  async function Login() {
+    const response = await fetch("http://localhost:5000/api/admins/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email: emailRef.current.value,
+        password: passwordRef.current.value,
+      }),
+    });
+    if (response.ok) {
+      history.push("/");
+    } else {
+      alert("Error");
+    }
+  }
+
   return (
     <React.Fragment>
       <br></br>
       <br></br>
       <br></br>
-      <div class="d-flex justify-content-center row-hl">
-        <div class="col-lg-6 ">
-          <div class="card bg-dark text-light card-form">
+      <div className="d-flex justify-content-center row-hl">
+        <div className="col-lg-6 ">
+          <div className="card bg-dark text-light card-form">
             <div class="card-body">
               <div class="text-center ">
                 <h3>Login</h3>
                 <p>Please fill out this form to login</p>
               </div>
-              <form>
-                <div class="form-group">
+              <form onSubmit={submitHandler}>
+                <div className="form-group">
                   <label for="name">Name</label>
                   <input
-                    class="form-control"
+                    className="form-control"
                     type="text"
                     id="name"
                     placeholder="Enter name"
+                    ref={emailRef}
                     required
                   />
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <label for="name">Password</label>
                   <input
-                    class="form-control"
-                    type="text"
+                    className="form-control"
+                    type="password"
                     id="name"
                     placeholder="Enter password"
+                    ref={passwordRef}
                     required
                   />
-                  <div class="form-group">
-                    <label for="type">User Type</label>
-                    <select class="form-control" id="type" required>
-                      <option></option>
-                      <option>User</option>
-                      <option>Admin</option>
-                      <option>Editor</option>
-                      <option>Reviewer</option>
-                    </select>
-                  </div>
                 </div>
-                <div class="form-group">
-                  <button class="form-control btn btn-primary" type="submit">
+                <div className="form-group">
+                  <button
+                    className="form-control btn btn-primary"
+                    type="submit"
+                  >
                     Login
                   </button>
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <Link to="Register">
-                    <button class="form-control btn btn-primary" type="button">
+                    <button
+                      className="form-control btn btn-primary"
+                      type="button"
+                    >
                       Register
                     </button>
                   </Link>

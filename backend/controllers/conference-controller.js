@@ -42,6 +42,13 @@ const updateApprove = async (req, res, next) => {
   res.status(200).json({ conference: updateConference });
 };
 
+const getConferenceById = async (req, res, next) => {
+  const Id = req.params.id;
+  const Place = await Conference.findById(Id);
+  res.json(Place);
+};
+
+exports.getConferenceById = getConferenceById;
 exports.createConference = createConference;
 exports.getAllConference = getAllConference;
 exports.getPendingConference = getPendingConference;

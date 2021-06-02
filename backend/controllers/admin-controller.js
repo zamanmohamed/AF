@@ -20,7 +20,7 @@ const login = async (req, res, next) => {
   let existingUser = await Admin.findOne({ email: email });
 
   if (!existingUser || existingUser.password !== password) {
-    res.json({ message: "Error" });
+    console.log("Error");
   } else {
     res.json({ message: "Logged in!" });
   }

@@ -22015,26 +22015,18 @@ var _home = require("./component/home/home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _approve = require("./component/approve/approve");
 var _approveDefault = parcelHelpers.interopDefault(_approve);
+var _loginButton = require("./LoginButton");
+var _loginButtonDefault = parcelHelpers.interopDefault(_loginButton);
+var _singleConference = require("./component/home/singleConference");
+var _singleConferenceDefault = parcelHelpers.interopDefault(_singleConference);
 const App = ()=>{
     return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
-            lineNumber: 12
-        },
-        __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_navbarDefault.default, {
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
-            lineNumber: 13
-        },
-        __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
             lineNumber: 14
         },
         __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_navbarDefault.default, {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
             lineNumber: 15
@@ -22046,18 +22038,58 @@ const App = ()=>{
             lineNumber: 16
         },
         __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
-        path: "/Login",
-        exact: true,
+    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
             lineNumber: 17
         },
         __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_loginDefault.default, {
+    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
             lineNumber: 18
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: "/Login",
+        exact: true,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 19
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_loginButtonDefault.default, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 20
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: "/conference/:id",
+        exact: true,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 22
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_singleConferenceDefault.default, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 23
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: "/Admin/Login",
+        exact: true,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 26
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_loginDefault.default, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
+            lineNumber: 27
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -22065,13 +22097,13 @@ const App = ()=>{
         exact: true,
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
-            lineNumber: 20
+            lineNumber: 29
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_approveDefault.default, {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
-            lineNumber: 21
+            lineNumber: 30
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -22079,26 +22111,27 @@ const App = ()=>{
         exact: true,
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
-            lineNumber: 23
+            lineNumber: 32
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_homeDefault.default, {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
-            lineNumber: 24
+            lineNumber: 33
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
-        path: "/Register",
+        path: "/Admin/Register",
+        exact: true,
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
-            lineNumber: 26
+            lineNumber: 35
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_registerDefault.default, {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\App.js",
-            lineNumber: 27
+            lineNumber: 36
         },
         __self: undefined
     }))));
@@ -22113,7 +22146,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"3b2NM","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","../bootstrap.min.css":"10UJa","./component/navbar":"LPXa3","react-router-dom":"1PMSK","./component/login":"2THDV","./component/register":"37SY1","./component/home/home":"1vcqI","./component/approve/approve":"7xoLT"}],"10UJa":[function() {},{}],"LPXa3":[function(require,module,exports) {
+},{"react":"3b2NM","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","../bootstrap.min.css":"10UJa","./component/navbar":"LPXa3","react-router-dom":"1PMSK","./component/login":"2THDV","./component/register":"37SY1","./component/home/home":"1vcqI","./component/approve/approve":"7xoLT","./LoginButton":"yDGQK","./component/home/singleConference":"36vX1"}],"10UJa":[function() {},{}],"LPXa3":[function(require,module,exports) {
 var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -22128,21 +22161,21 @@ var _reactRouterDom = require("react-router-dom");
 //import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 const navbar = ()=>{
     return(/*#__PURE__*/ _reactDefault.default.createElement("nav", {
-        class: "navbar navbar-expand-sm navbar-dark bg-dark mb-3 fixed-top",
+        className: "navbar navbar-expand-sm navbar-dark bg-dark mb-3 fixed-top",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 7
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        class: "container",
+        className: "container",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 8
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
-        class: "navbar-brand",
+        className: "navbar-brand",
         to: "/",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
@@ -22150,21 +22183,21 @@ const navbar = ()=>{
         },
         __self: undefined
     }, "Navbar"), /*#__PURE__*/ _reactDefault.default.createElement("ul", {
-        class: "navbar-nav",
+        className: "navbar-nav",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 12
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("li", {
-        class: "nav-item",
+        className: "nav-item",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 13
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
-        class: "nav-link",
+        className: "nav-link",
         to: "/",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
@@ -22172,14 +22205,14 @@ const navbar = ()=>{
         },
         __self: undefined
     }, "Home")), /*#__PURE__*/ _reactDefault.default.createElement("li", {
-        class: "nav-item",
+        className: "nav-item",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 18
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
-        class: "nav-link",
+        className: "nav-link",
         to: "/Approve",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
@@ -22187,14 +22220,14 @@ const navbar = ()=>{
         },
         __self: undefined
     }, "Approve")), /*#__PURE__*/ _reactDefault.default.createElement("li", {
-        class: "nav-item",
+        className: "nav-item",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 23
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
-        class: "nav-link",
+        className: "nav-link",
         to: "/Login",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
@@ -22202,14 +22235,14 @@ const navbar = ()=>{
         },
         __self: undefined
     }, "Contact")), /*#__PURE__*/ _reactDefault.default.createElement("li", {
-        class: "nav-item",
+        className: "nav-item",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 28
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
-        class: "nav-link",
+        className: "nav-link",
         to: "/Login",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
@@ -22217,14 +22250,14 @@ const navbar = ()=>{
         },
         __self: undefined
     }, "Contact")), /*#__PURE__*/ _reactDefault.default.createElement("li", {
-        class: "nav-item",
+        className: "nav-item",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 33
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
-        class: "nav-link",
+        className: "nav-link",
         to: "/Login",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\navbar.js",
@@ -25331,226 +25364,202 @@ parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
 const login = ()=>{
+    _s();
+    const emailRef = _react.useRef("");
+    const passwordRef = _react.useRef("");
+    const history = _reactRouterDom.useHistory();
+    function submitHandler(event) {
+        event.preventDefault();
+        Login();
+    }
+    async function Login() {
+        const response = await fetch("http://localhost:5000/api/admins/login", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                email: emailRef.current.value,
+                password: passwordRef.current.value
+            })
+        });
+        if (response.ok) history.push("/");
+        else alert("Error");
+    }
     return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 6
+            lineNumber: 34
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 7
+            lineNumber: 35
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 8
+            lineNumber: 36
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 9
+            lineNumber: 37
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        class: "d-flex justify-content-center row-hl",
+        className: "d-flex justify-content-center row-hl",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 10
+            lineNumber: 38
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        class: "col-lg-6 ",
+        className: "col-lg-6 ",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 11
+            lineNumber: 39
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        class: "card bg-dark text-light card-form",
+        className: "card bg-dark text-light card-form",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 12
+            lineNumber: 40
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         class: "card-body",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 13
+            lineNumber: 41
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         class: "text-center ",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 14
+            lineNumber: 42
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 15
+            lineNumber: 43
         },
         __self: undefined
     }, "Login"), /*#__PURE__*/ _reactDefault.default.createElement("p", {
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 16
-        },
-        __self: undefined
-    }, "Please fill out this form to login")), /*#__PURE__*/ _reactDefault.default.createElement("form", {
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 18
-        },
-        __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        class: "form-group",
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 19
-        },
-        __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
-        for: "name",
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 20
-        },
-        __self: undefined
-    }, "Name"), /*#__PURE__*/ _reactDefault.default.createElement("input", {
-        class: "form-control",
-        type: "text",
-        id: "name",
-        placeholder: "Enter name",
-        required: true,
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 21
-        },
-        __self: undefined
-    })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        class: "form-group",
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 29
-        },
-        __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
-        for: "name",
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 30
-        },
-        __self: undefined
-    }, "Password"), /*#__PURE__*/ _reactDefault.default.createElement("input", {
-        class: "form-control",
-        type: "text",
-        id: "name",
-        placeholder: "Enter password",
-        required: true,
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 31
-        },
-        __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        class: "form-group",
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 38
-        },
-        __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
-        for: "type",
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 39
-        },
-        __self: undefined
-    }, "User Type"), /*#__PURE__*/ _reactDefault.default.createElement("select", {
-        class: "form-control",
-        id: "type",
-        required: true,
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 40
-        },
-        __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement("option", {
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 41
-        },
-        __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("option", {
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 42
-        },
-        __self: undefined
-    }, "User"), /*#__PURE__*/ _reactDefault.default.createElement("option", {
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 43
-        },
-        __self: undefined
-    }, "Admin"), /*#__PURE__*/ _reactDefault.default.createElement("option", {
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
             lineNumber: 44
         },
         __self: undefined
-    }, "Editor"), /*#__PURE__*/ _reactDefault.default.createElement("option", {
+    }, "Please fill out this form to login")), /*#__PURE__*/ _reactDefault.default.createElement("form", {
+        onSubmit: submitHandler,
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 45
+            lineNumber: 46
         },
         __self: undefined
-    }, "Reviewer")))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        class: "form-group",
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "form-group",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
+            lineNumber: 47
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
+        for: "name",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
+            lineNumber: 48
+        },
+        __self: undefined
+    }, "Name"), /*#__PURE__*/ _reactDefault.default.createElement("input", {
+        className: "form-control",
+        type: "text",
+        id: "name",
+        placeholder: "Enter name",
+        ref: emailRef,
+        required: true,
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
             lineNumber: 49
         },
         __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "form-group",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
+            lineNumber: 58
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
+        for: "name",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
+            lineNumber: 59
+        },
+        __self: undefined
+    }, "Password"), /*#__PURE__*/ _reactDefault.default.createElement("input", {
+        className: "form-control",
+        type: "password",
+        id: "name",
+        placeholder: "Enter password",
+        ref: passwordRef,
+        required: true,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
+            lineNumber: 60
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "form-group",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
+            lineNumber: 69
+        },
+        __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("button", {
-        class: "form-control btn btn-primary",
+        className: "form-control btn btn-primary",
         type: "submit",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 50
+            lineNumber: 70
         },
         __self: undefined
     }, "Login")), /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        class: "form-group",
+        className: "form-group",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 54
+            lineNumber: 77
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
         to: "Register",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 55
+            lineNumber: 78
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("button", {
-        class: "form-control btn btn-primary",
+        className: "form-control btn btn-primary",
         type: "button",
         __source: {
             fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\login.js",
-            lineNumber: 56
+            lineNumber: 79
         },
         __self: undefined
     }, "Register"))))))))));
 };
+_s(login, "xLmUNRO+QilrlRnfTx8WXdisUbg=", false, function() {
+    return [_reactRouterDom.useHistory];
+});
 exports.default = login;
 
   helpers.postlude(module);
@@ -25882,7 +25891,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"3b2NM","react-bootstrap":"4n7hB","axios":"7rA65","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./Product":"3k1l8"}],"4n7hB":[function(require,module,exports) {
+},{"react":"3b2NM","react-bootstrap":"4n7hB","./Product":"3k1l8","axios":"7rA65","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"4n7hB":[function(require,module,exports) {
 "use strict";
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 exports.__esModule = true;
@@ -38033,7 +38042,88 @@ var _default = Tooltip;
 exports.default = _default;
 module.exports = exports["default"];
 
-},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/extends":"3krLJ","@babel/runtime/helpers/objectWithoutPropertiesLoose":"3Yx9V","classnames":"5aJRc","react":"3b2NM","prop-types-extra/lib/isRequiredForA11y":"4XrEc","./ThemeProvider":"4rz1S"}],"7rA65":[function(require,module,exports) {
+},{"@babel/runtime/helpers/interopRequireDefault":"4ttVj","@babel/runtime/helpers/extends":"3krLJ","@babel/runtime/helpers/objectWithoutPropertiesLoose":"3Yx9V","classnames":"5aJRc","react":"3b2NM","prop-types-extra/lib/isRequiredForA11y":"4XrEc","./ThemeProvider":"4rz1S"}],"3k1l8":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _reactBootstrap = require("react-bootstrap");
+//import Rating from "./Rating";
+const Product = ({ product  })=>{
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Container, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
+            lineNumber: 9
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "card bg-danger text-white mb-3",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
+            lineNumber: 10
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
+        to: `/conference/${product._id}`,
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
+            lineNumber: 11
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
+            lineNumber: 12
+        },
+        __self: undefined
+    }, " ", /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "card-header",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
+            lineNumber: 14
+        },
+        __self: undefined
+    }, product.title))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "card-body",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
+            lineNumber: 17
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h4", {
+        className: "card-title",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
+            lineNumber: 18
+        },
+        __self: undefined
+    }, product.date), /*#__PURE__*/ _reactDefault.default.createElement("p", {
+        className: "card-text",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
+            lineNumber: 19
+        },
+        __self: undefined
+    }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod")))));
+};
+_c = Product;
+exports.default = Product;
+var _c;
+$RefreshReg$(_c, "Product");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"3b2NM","react-router-dom":"1PMSK","react-bootstrap":"4n7hB","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"7rA65":[function(require,module,exports) {
 module.exports = require('./lib/axios');
 
 },{"./lib/axios":"4qfhW"}],"4qfhW":[function(require,module,exports) {
@@ -39399,88 +39489,7 @@ module.exports = CancelToken;
     return typeof payload === 'object' && payload.isAxiosError === true;
 };
 
-},{}],"3k1l8":[function(require,module,exports) {
-var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-helpers.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _reactBootstrap = require("react-bootstrap");
-//import Rating from "./Rating";
-const Product = ({ product  })=>{
-    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Container, {
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
-            lineNumber: 9
-        },
-        __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        class: "card bg-danger text-white mb-3",
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
-            lineNumber: 10
-        },
-        __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
-        to: `/conference/${product._id}`,
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
-            lineNumber: 11
-        },
-        __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
-            lineNumber: 12
-        },
-        __self: undefined
-    }, " ", /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        class: "card-header",
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
-            lineNumber: 14
-        },
-        __self: undefined
-    }, product.title))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        class: "card-body",
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
-            lineNumber: 17
-        },
-        __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement("h4", {
-        class: "card-title",
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
-            lineNumber: 18
-        },
-        __self: undefined
-    }, product.date), /*#__PURE__*/ _reactDefault.default.createElement("p", {
-        class: "card-text",
-        __source: {
-            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\Product.js",
-            lineNumber: 19
-        },
-        __self: undefined
-    }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod")))));
-};
-_c = Product;
-exports.default = Product;
-var _c;
-$RefreshReg$(_c, "Product");
-
-  helpers.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react":"3b2NM","react-router-dom":"1PMSK","react-bootstrap":"4n7hB","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"7xoLT":[function(require,module,exports) {
+},{}],"7xoLT":[function(require,module,exports) {
 var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -39741,6 +39750,200 @@ $RefreshReg$(_c, "Product");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"3b2NM","react-router-dom":"1PMSK","react-bootstrap":"4n7hB","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}]},["1j6wU","oOezg","4ee1I"], "4ee1I", "parcelRequirec7cd")
+},{"react":"3b2NM","react-router-dom":"1PMSK","react-bootstrap":"4n7hB","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"yDGQK":[function(require,module,exports) {
+var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+const LoginButton = ()=>{
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 6
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 7
+        },
+        __self: undefined
+    }), " ", /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 7
+        },
+        __self: undefined
+    }), " ", /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 7
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "Container d-flex justify-content-center row-hl",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 8
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 9
+        },
+        __self: undefined
+    }, "Select User Type")), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "Container",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 11
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
+        to: "/Admin/Login",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 12
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("button", {
+        class: "btn btn-dark btn-block",
+        type: "button",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 13
+        },
+        __self: undefined
+    }, "Admin")), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 17
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("button", {
+        class: "btn btn-dark btn-block",
+        type: "button",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 18
+        },
+        __self: undefined
+    }, "User"), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 21
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("button", {
+        class: "btn btn-dark btn-block",
+        type: "button",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 22
+        },
+        __self: undefined
+    }, "Reviewer"), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 25
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("button", {
+        class: "btn btn-dark btn-block",
+        type: "button",
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 26
+        },
+        __self: undefined
+    }, "Editor"))));
+};
+_c = LoginButton;
+exports.default = LoginButton;
+var _c;
+$RefreshReg$(_c, "LoginButton");
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"3b2NM","react-router-dom":"1PMSK","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"36vX1":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+var _s = $RefreshSig$();
+const singleConference = ({ match  })=>{
+    _s();
+    const [conference, setconference] = _react.useState({
+    });
+    const id = _reactRouterDom.useParams().id;
+    _react.useEffect(()=>{
+        const sendRequest = async ()=>{
+            const { data  } = await _axiosDefault.default.get(`http://localhost:5000/api/conferences/${id}`);
+            setconference(data);
+            console.log(data);
+        };
+        sendRequest();
+    }, []);
+    return(/*#__PURE__*/ _reactDefault.default.createElement("div", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 21
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 22
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 23
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 24
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        __source: {
+            fileName: "C:\\Users\\Zaman\\zaman\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 25
+        },
+        __self: undefined
+    }, conference.title)));
+};
+_s(singleConference, "jC2EYWVvUGewk+0A6zgTIEwCeSQ=");
+exports.default = singleConference;
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"3b2NM","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","axios":"7rA65","react-router-dom":"1PMSK"}]},["1j6wU","oOezg","4ee1I"], "4ee1I", "parcelRequirec7cd")
 
 //# sourceMappingURL=index.fd532818.js.map

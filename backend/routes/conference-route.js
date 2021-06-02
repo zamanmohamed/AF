@@ -6,6 +6,7 @@ router.post("/", conferenceControllers.createConference);
 router.get("/", conferenceControllers.getAllConference);
 router.get("/pending", conferenceControllers.getPendingConference);
 router.get("/approved", conferenceControllers.getApprovedConference);
+router.get("/:id", conferenceControllers.getConferenceById);
 router.patch("/:id", conferenceControllers.updateApprove);
 
 module.exports = router;
