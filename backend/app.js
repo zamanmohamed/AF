@@ -6,6 +6,12 @@ const userRoutes = require("./routes/users-route");
 const adminRoutes = require("./routes/admin-route");
 const conferenceRoutes = require("./routes/conference-route");
 
+//it19031026
+const speakerapi = require('./routes/speaker.api');
+
+
+
+
 const app = express();
 app.use(bodyparser.json());
 
@@ -24,6 +30,10 @@ app.use("/api/places", placesRouter);
 app.use("/api/users", userRoutes);
 app.use("/api/admins", adminRoutes);
 app.use("/api/conferences", conferenceRoutes);
+
+//it19031026
+app.use('/speaker', speakerapi());
+
 
 mongoose
   .connect(
