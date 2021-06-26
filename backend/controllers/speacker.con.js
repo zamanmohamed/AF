@@ -24,7 +24,15 @@ const getallspeaker = async (req,res) => {
 }
 
 
+
+const deletespeaker = async(req,res) => {
+    await Speaker.findByIdAndDelete(req.params.id)
+    .then(() => res.json('deleted'))
+    .catch(err => res.status(400).json('error: '+err));
+}
+
 module.exports = {
     createspeaker,
-    getallspeaker
+    getallspeaker,
+    deletespeaker
 }
