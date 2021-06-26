@@ -8,6 +8,7 @@ const conferenceRoutes = require("./routes/conference-route");
 
 //it19031026
 const speakerapi = require('./routes/speaker.api');
+const conferenceapi = require('./routes/conference.api');
 
 
 
@@ -33,6 +34,7 @@ app.use("/api/conferences", conferenceRoutes);
 
 //it19031026
 app.use('/speaker', speakerapi());
+app.use('/conference', conferenceapi());
 
 
 mongoose
