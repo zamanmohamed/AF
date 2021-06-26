@@ -5,6 +5,7 @@ const controller = require('../controllers/speacker.con');
 
 module.exports = function() {
     router.post('/createspeaker', controller.createspeaker);
+    router.get('/getallspeaker', controller.getallspeaker);
 
     return router;
 }
