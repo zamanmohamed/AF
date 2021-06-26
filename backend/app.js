@@ -37,10 +37,16 @@ app.use('/speaker', speakerapi());
 
 mongoose
   .connect(
-    "mongodb+srv://AF:AF@cms.yrylr.mongodb.net/CMS?retryWrites=true&w=majority"
+    "mongodb+srv://AF:AF@cms.yrylr.mongodb.net/CMS?retryWrites=true&w=majority",
+    {useCreateIndex: true,
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useFindAndModify: false
+  }
   )
   .then(() => {
     app.listen(5000);
+    console.log('server successfull');
   })
   .catch((err) => {
     console.log(err);
