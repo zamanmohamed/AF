@@ -23,7 +23,15 @@ const getallspeaker = async (req,res) => {
     })
 }
 
-
+const getspeaker = async (req,res) => {
+    await Speaker.findById(req.params.id)
+    .then(data => {
+        res.status(200).send({data: data});
+    })
+    .catch(error => {
+        res.status(500).send({error: error.message});
+    })
+}
 
 const deletespeaker = async(req,res) => {
     await Speaker.findByIdAndDelete(req.params.id)
@@ -34,5 +42,6 @@ const deletespeaker = async(req,res) => {
 module.exports = {
     createspeaker,
     getallspeaker,
-    deletespeaker
+    deletespeaker,
+    getspeaker
 }
