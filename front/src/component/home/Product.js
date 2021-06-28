@@ -7,19 +7,16 @@ import { Card, Container } from "react-bootstrap";
 const Product = ({ product }) => {
   return (
     <Container>
-      <div className="card bg-danger text-white mb-3">
+      <div className="card bg-dark text-white mb-3">
         <Link to={`/conference/${product._id}`}>
           <h1>
             {" "}
-            <div className="card-header">{product.title}</div>
+            <div className="card-header text-light">{product.title}</div>
           </h1>
         </Link>
         <div className="card-body">
           <h4 className="card-title">{product.date}</h4>
-          <p className="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod
-          </p>
+          <p className="card-text">{product.discription}</p>
         </div>
       </div>
     </Container>

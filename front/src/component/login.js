@@ -45,18 +45,18 @@ const login = () => {
               </div>
               <form onSubmit={submitHandler}>
                 <div className="form-group">
-                  <label for="name">Name</label>
+                  <label for="Email">Email</label>
                   <input
                     className="form-control"
                     type="text"
-                    id="name"
+                    id="Email"
                     placeholder="Enter name"
                     ref={emailRef}
                     required
                   />
                 </div>
                 <div className="form-group">
-                  <label for="name">Password</label>
+                  <label for="Password">Password</label>
                   <input
                     className="form-control"
                     type="password"
@@ -67,19 +67,13 @@ const login = () => {
                   />
                 </div>
                 <div className="form-group">
-                  <button
-                    className="form-control btn btn-primary"
-                    type="submit"
-                  >
+                  <button className="form-control primary" type="submit">
                     Login
                   </button>
                 </div>
                 <div className="form-group">
                   <Link to="Register">
-                    <button
-                      className="form-control btn btn-primary"
-                      type="button"
-                    >
+                    <button className="form-control " type="button">
                       Register
                     </button>
                   </Link>

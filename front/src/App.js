@@ -1,5 +1,5 @@
 import React from "react";
-import "../bootstrap.min.css";
+//import "../bootstrap.min.css";
 import { Route } from "react-router-dom";
 import Nav from "./component/navbar";
 import AdminLogin from "./component/login";
@@ -8,6 +8,8 @@ import Home from "./component/home/home";
 import Approve from "./component/approve/approve";
 import LoginButton from "./LoginButton";
 import SingleConference from "./component/home/singleConference";
+import Caption from "./component/caption/caption";
+import Profile from "./component/proflie/profile";
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
       <br></br>
       <br></br>
       <br></br>
+
       <Route path="/Login" exact>
         <LoginButton />
       </Route>
@@ -30,10 +33,14 @@ const App = () => {
         <Approve />
       </Route>
       <Route path="/" exact>
+        <Caption />
         <Home />
       </Route>
       <Route path="/Admin/Register" exact>
         <Register />
+      </Route>
+      <Route path="/Admin/Proflie" exact>
+        <Profile />
       </Route>
     </React.Fragment>
   );

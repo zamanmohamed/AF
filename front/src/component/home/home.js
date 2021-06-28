@@ -21,10 +21,7 @@ const Home = () => {
 
   return (
     <React.Fragment>
-      <br></br>
-      <br></br>
-      <br></br>
-      <h1 class="text-center"> conference</h1>
+      <h1 class="text-center"> CONFERENCE</h1>
       <br></br>
       <Row>
         {cofarance.map((cofaranc) => (

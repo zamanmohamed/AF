@@ -79,10 +79,7 @@ const register = () => {
                   />
                 </div>
                 <div className="form-group">
-                  <button
-                    className="form-control btn btn-primary"
-                    type="submit"
-                  >
+                  <button className="form-control " type="submit">
                     Register
                   </button>
                 </div>
