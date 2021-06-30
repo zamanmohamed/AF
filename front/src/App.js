@@ -1,6 +1,6 @@
 import React from "react";
 //import "../bootstrap.min.css";
-import { Route } from "react-router-dom";
+ import { Route } from "react-router-dom";
 import Nav from "./component/navbar";
 import AdminLogin from "./component/login";
 import Register from "./component/register";
@@ -10,6 +10,12 @@ import LoginButton from "./LoginButton";
 import SingleConference from "./component/home/singleConference";
 import Caption from "./component/caption/caption";
 import Profile from "./component/proflie/profile";
+
+
+// Reviewer
+// import RevLanding from "./component/reviewer/login/RevLanding";
+// import RevLogin from "./component/reviewer/login/RevLogin.jsx";
+// import RevRegister from "./component/reviewer/login/RevRegister";
 
 const App = () => {
   return (
@@ -42,6 +48,19 @@ const App = () => {
       <Route path="/Admin/Proflie" exact>
         <Profile />
       </Route>
+
+      {/* Reviewer */}
+      
+      {/* <Route path="/" exact>
+        <RevLanding />
+      </Route>
+      <Route path="/rev/login" exact>
+        <RevLogin />
+      </Route>
+      <Route path="/rev/register" exact>
+        <RevRegister />
+      </Route>   */}
+
     </React.Fragment>
   );
 };

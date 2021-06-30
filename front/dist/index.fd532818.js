@@ -878,13 +878,13 @@ var _app = require("./src/App");
 var _appDefault = parcelHelpers.interopDefault(_app);
 _reactDom.render(/*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
     __source: {
-        fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\index.js",
+        fileName: "D:\\AF_Clone_Final\\AF\\front\\index.js",
         lineNumber: 13
     },
     __self: undefined
 }, /*#__PURE__*/ _reactDefault.default.createElement(_appDefault.default, {
     __source: {
-        fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\index.js",
+        fileName: "D:\\AF_Clone_Final\\AF\\front\\index.js",
         lineNumber: 14
     },
     __self: undefined
@@ -895,7 +895,7 @@ _reactDom.render(/*#__PURE__*/ _reactDefault.default.createElement(_reactRouterD
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"3b2NM","@fortawesome/fontawesome-free/css/all.min.css":"nBkdQ","bootstrap-css-only/css/bootstrap.min.css":"5ItN8","mdbreact/dist/css/mdb.css":"2QMgB","react-dom":"2sg1U","react-router-dom":"1PMSK","./src/App":"6Pm2X","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","./node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3b2NM":[function(require,module,exports) {
+},{"react":"3b2NM","@fortawesome/fontawesome-free/css/all.min.css":"2N3AV","bootstrap-css-only/css/bootstrap.min.css":"4XEWo","mdbreact/dist/css/mdb.css":"49giP","react-dom":"2sg1U","react-router-dom":"1PMSK","./src/App":"6Pm2X","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","./node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3b2NM":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react.development.js');
 
@@ -2556,7 +2556,7 @@ module.exports = shouldUseNative() ? Object.assign : function(target, source) {
     return to;
 };
 
-},{}],"nBkdQ":[function() {},{}],"5ItN8":[function() {},{}],"2QMgB":[function() {},{}],"2sg1U":[function(require,module,exports) {
+},{}],"2N3AV":[function() {},{}],"4XEWo":[function() {},{}],"49giP":[function() {},{}],"2sg1U":[function(require,module,exports) {
 'use strict';
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined' || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== 'function') return;
@@ -24934,7 +24934,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _bootstrapMinCss = require("../bootstrap.min.css");
+//import "../bootstrap.min.css";
 var _reactRouterDom = require("react-router-dom");
 var _navbar = require("./component/navbar");
 var _navbarDefault = parcelHelpers.interopDefault(_navbar);
@@ -24950,119 +24950,147 @@ var _loginButton = require("./LoginButton");
 var _loginButtonDefault = parcelHelpers.interopDefault(_loginButton);
 var _singleConference = require("./component/home/singleConference");
 var _singleConferenceDefault = parcelHelpers.interopDefault(_singleConference);
+var _caption = require("./component/caption/caption");
+var _captionDefault = parcelHelpers.interopDefault(_caption);
+var _profile = require("./component/proflie/profile");
+var _profileDefault = parcelHelpers.interopDefault(_profile);
+// Reviewer
+// import RevLanding from "./component/reviewer/login/RevLanding";
+// import RevLogin from "./component/reviewer/login/RevLogin.jsx";
+// import RevRegister from "./component/reviewer/login/RevRegister";
 const App = ()=>{
     return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 14
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 22
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_navbarDefault.default, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 15
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 23
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 16
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 24
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 17
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 25
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 18
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 26
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
         path: "/Login",
         exact: true,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 19
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 28
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_loginButtonDefault.default, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 20
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 29
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
         path: "/conference/:id",
         exact: true,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 22
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 31
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_singleConferenceDefault.default, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 23
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 32
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
         path: "/Admin/Login",
         exact: true,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 26
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 35
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_loginDefault.default, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 27
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 36
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
         path: "/Approve",
         exact: true,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 29
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 38
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_approveDefault.default, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 30
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 39
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
         path: "/",
         exact: true,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 32
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 41
         },
         __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_homeDefault.default, {
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_captionDefault.default, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 33
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 42
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement(_homeDefault.default, {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 43
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
         path: "/Admin/Register",
         exact: true,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 35
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 45
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_registerDefault.default, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\App.js",
-            lineNumber: 36
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 46
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: "/Admin/Proflie",
+        exact: true,
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 48
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement(_profileDefault.default, {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\App.js",
+            lineNumber: 49
         },
         __self: undefined
     }))));
@@ -25077,7 +25105,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"3b2NM","../bootstrap.min.css":"6xloO","react-router-dom":"1PMSK","./component/navbar":"LPXa3","./component/login":"2THDV","./component/register":"37SY1","./component/home/home":"1vcqI","./component/approve/approve":"7xoLT","./LoginButton":"yDGQK","./component/home/singleConference":"36vX1","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"6xloO":[function() {},{}],"LPXa3":[function(require,module,exports) {
+},{"react":"3b2NM","react-router-dom":"1PMSK","./component/navbar":"LPXa3","./component/login":"2THDV","./component/register":"37SY1","./component/home/home":"1vcqI","./component/approve/approve":"7xoLT","./LoginButton":"yDGQK","./component/home/singleConference":"36vX1","./component/caption/caption":"5jWDR","./component/proflie/profile":"4pwCL","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"LPXa3":[function(require,module,exports) {
 var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -25094,14 +25122,14 @@ const navbar = ()=>{
     return(/*#__PURE__*/ _reactDefault.default.createElement("nav", {
         className: "navbar navbar-expand-sm navbar-dark bg-dark mb-3 fixed-top",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 7
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "container",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 8
         },
         __self: undefined
@@ -25109,21 +25137,21 @@ const navbar = ()=>{
         className: "navbar-brand",
         to: "/",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 9
         },
         __self: undefined
     }, "Navbar"), /*#__PURE__*/ _reactDefault.default.createElement("ul", {
         className: "navbar-nav",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 12
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("li", {
         className: "nav-item",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 13
         },
         __self: undefined
@@ -25131,14 +25159,14 @@ const navbar = ()=>{
         className: "nav-link",
         to: "/",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 14
         },
         __self: undefined
     }, "Home")), /*#__PURE__*/ _reactDefault.default.createElement("li", {
         className: "nav-item",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 18
         },
         __self: undefined
@@ -25146,14 +25174,14 @@ const navbar = ()=>{
         className: "nav-link",
         to: "/Approve",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 19
         },
         __self: undefined
     }, "Approve")), /*#__PURE__*/ _reactDefault.default.createElement("li", {
         className: "nav-item",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 23
         },
         __self: undefined
@@ -25161,14 +25189,14 @@ const navbar = ()=>{
         className: "nav-link",
         to: "/Login",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 24
         },
         __self: undefined
     }, "Contact")), /*#__PURE__*/ _reactDefault.default.createElement("li", {
         className: "nav-item",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 28
         },
         __self: undefined
@@ -25176,14 +25204,14 @@ const navbar = ()=>{
         className: "nav-link",
         to: "/Login",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 29
         },
         __self: undefined
     }, "Contact")), /*#__PURE__*/ _reactDefault.default.createElement("li", {
         className: "nav-item",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 33
         },
         __self: undefined
@@ -25191,7 +25219,7 @@ const navbar = ()=>{
         className: "nav-link",
         to: "/Login",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\navbar.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\navbar.js",
             lineNumber: 34
         },
         __self: undefined
@@ -25394,119 +25422,119 @@ const login = ()=>{
     }
     return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 34
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 35
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 36
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 37
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "d-flex justify-content-center row-hl",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 38
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "col-lg-6 ",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 39
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "card bg-dark text-light card-form",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 40
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         class: "card-body",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 41
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         class: "text-center ",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 42
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 43
         },
         __self: undefined
     }, "Login"), /*#__PURE__*/ _reactDefault.default.createElement("p", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 44
         },
         __self: undefined
     }, "Please fill out this form to login")), /*#__PURE__*/ _reactDefault.default.createElement("form", {
         onSubmit: submitHandler,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 46
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "form-group",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 47
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
-        for: "name",
+        for: "Email",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 48
         },
         __self: undefined
-    }, "Name"), /*#__PURE__*/ _reactDefault.default.createElement("input", {
+    }, "Email"), /*#__PURE__*/ _reactDefault.default.createElement("input", {
         className: "form-control",
         type: "text",
-        id: "name",
+        id: "Email",
         placeholder: "Enter name",
         ref: emailRef,
         required: true,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 49
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "form-group",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 58
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
-        for: "name",
+        for: "Password",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 59
         },
         __self: undefined
@@ -25518,45 +25546,45 @@ const login = ()=>{
         ref: passwordRef,
         required: true,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 60
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "form-group",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 69
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("button", {
-        className: "form-control btn btn-primary",
+        className: "form-control primary",
         type: "submit",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
             lineNumber: 70
         },
         __self: undefined
     }, "Login")), /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "form-group",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
-            lineNumber: 77
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
+            lineNumber: 74
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
         to: "Register",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
-            lineNumber: 78
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
+            lineNumber: 75
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("button", {
-        className: "form-control btn btn-primary",
+        className: "form-control ",
         type: "button",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\login.js",
-            lineNumber: 79
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\login.js",
+            lineNumber: 76
         },
         __self: undefined
     }, "Register"))))))))));
@@ -25610,93 +25638,93 @@ const register = ()=>{
     }
     return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 34
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 35
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 36
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 37
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "d-flex justify-content-center row-hl",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 39
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "col-lg-6 ",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 40
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "card bg-dark text-light card-form",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 41
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "card-body",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 42
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "text-center ",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 43
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 44
         },
         __self: undefined
     }, "Register Page"), /*#__PURE__*/ _reactDefault.default.createElement("p", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 45
         },
         __self: undefined
     }, "Please fill out this form to reagister")), /*#__PURE__*/ _reactDefault.default.createElement("form", {
         onSubmit: submitHandler,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 47
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "form-group",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 48
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
         for: "name",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 49
         },
         __self: undefined
@@ -25708,21 +25736,21 @@ const register = ()=>{
         ref: nameRef,
         required: true,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 50
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "form-group",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 59
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
         for: "name",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 60
         },
         __self: undefined
@@ -25734,21 +25762,21 @@ const register = ()=>{
         ref: emailRef,
         required: true,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 61
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "form-group",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 70
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
         for: "name",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 71
         },
         __self: undefined
@@ -25760,22 +25788,22 @@ const register = ()=>{
         ref: passwordRef,
         required: true,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 72
         },
         __self: undefined
     })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "form-group",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 81
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("button", {
-        className: "form-control btn btn-primary",
+        className: "form-control ",
         type: "submit",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\register.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\register.js",
             lineNumber: 82
         },
         __self: undefined
@@ -25822,45 +25850,27 @@ const Home = ()=>{
     console.log(cofarance);
     return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\home.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\home.js",
             lineNumber: 23
         },
         __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement("br", {
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        class: "text-center",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\home.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\home.js",
             lineNumber: 24
         },
         __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+    }, " CONFERENCE"), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\home.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\home.js",
             lineNumber: 25
-        },
-        __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
-        __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\home.js",
-            lineNumber: 26
-        },
-        __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("h1", {
-        class: "text-center",
-        __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\home.js",
-            lineNumber: 27
-        },
-        __self: undefined
-    }, " conference"), /*#__PURE__*/ _reactDefault.default.createElement("br", {
-        __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\home.js",
-            lineNumber: 28
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Row, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\home.js",
-            lineNumber: 29
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\home.js",
+            lineNumber: 26
         },
         __self: undefined
     }, cofarance.map((cofaranc)=>/*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Col, {
@@ -25870,15 +25880,15 @@ const Home = ()=>{
             lg: 3,
             xl: 3,
             __source: {
-                fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\home.js",
-                lineNumber: 31
+                fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\home.js",
+                lineNumber: 28
             },
             __self: undefined
         }, /*#__PURE__*/ _reactDefault.default.createElement(_productDefault.default, {
             product: cofaranc,
             __source: {
-                fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\home.js",
-                lineNumber: 32
+                fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\home.js",
+                lineNumber: 29
             },
             __self: undefined
         }))
@@ -38063,59 +38073,59 @@ var _reactBootstrap = require("react-bootstrap");
 const Product = ({ product  })=>{
     return(/*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Container, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\Product.js",
             lineNumber: 9
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        className: "card bg-danger text-white mb-3",
+        className: "card bg-dark text-white mb-3",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\Product.js",
             lineNumber: 10
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
         to: `/conference/${product._id}`,
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\Product.js",
             lineNumber: 11
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\Product.js",
             lineNumber: 12
         },
         __self: undefined
     }, " ", /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        className: "card-header",
+        className: "card-header text-light",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\Product.js",
             lineNumber: 14
         },
         __self: undefined
     }, product.title))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "card-body",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\Product.js",
             lineNumber: 17
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("h4", {
         className: "card-title",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\Product.js",
             lineNumber: 18
         },
         __self: undefined
     }, product.date), /*#__PURE__*/ _reactDefault.default.createElement("p", {
         className: "card-text",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\Product.js",
             lineNumber: 19
         },
         __self: undefined
-    }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod")))));
+    }, product.discription)))));
 };
 _c = Product;
 exports.default = Product;
@@ -39524,99 +39534,193 @@ const approve = ()=>{
     console.log(cofarance);
     return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
             lineNumber: 21
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
             lineNumber: 22
-        },
-        __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
-        __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
-            lineNumber: 23
-        },
-        __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
-        __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
-            lineNumber: 24
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("h1", {
         class: "text-center",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 24
+        },
+        __self: undefined
+    }, " CONFERENCE"), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
             lineNumber: 25
         },
         __self: undefined
-    }, " conference"), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "container",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
             lineNumber: 26
         },
         __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Container, {
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "row",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
             lineNumber: 27
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "col-md-9",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 28
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("table", {
         class: "table table-dark",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
-            lineNumber: 28
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 29
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("thead", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
-            lineNumber: 29
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 30
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("tr", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
-            lineNumber: 30
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 31
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("th", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
-            lineNumber: 31
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 32
         },
         __self: undefined
     }, "#"), /*#__PURE__*/ _reactDefault.default.createElement("th", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
-            lineNumber: 32
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 33
         },
         __self: undefined
     }, "title"), /*#__PURE__*/ _reactDefault.default.createElement("th", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
-            lineNumber: 33
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 34
         },
         __self: undefined
     }, "speaker"), /*#__PURE__*/ _reactDefault.default.createElement("th", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
-            lineNumber: 34
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 35
         },
         __self: undefined
     }, "date"))), cofarance.map((cofaranc)=>/*#__PURE__*/ _reactDefault.default.createElement(_productDefault.default, {
             product: cofaranc,
             __source: {
-                fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\approve.js",
-                lineNumber: 39
+                fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+                lineNumber: 40
             },
             __self: undefined
         })
-    )))));
+    ))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "col-md-3",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 44
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card text-center bg-primary text-white mb-3",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 45
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card-body",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 46
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 47
+        },
+        __self: undefined
+    }, "Cofarances"), /*#__PURE__*/ _reactDefault.default.createElement("h4", {
+        class: "display-4",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 48
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("i", {
+        class: "fas fa-folder",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 49
+        },
+        __self: undefined
+    }), " 6"), /*#__PURE__*/ _reactDefault.default.createElement("a", {
+        href: "#",
+        class: "btn btn-outline-light btn-sm",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 51
+        },
+        __self: undefined
+    }, "View"))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card text-center bg-warning text-white mb-3",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 57
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card-body",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 58
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 59
+        },
+        __self: undefined
+    }, "Speakers"), /*#__PURE__*/ _reactDefault.default.createElement("h4", {
+        class: "display-4",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 60
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("i", {
+        class: "fas fa-users",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 61
+        },
+        __self: undefined
+    }), " 4"), /*#__PURE__*/ _reactDefault.default.createElement("a", {
+        href: "#",
+        class: "btn btn-outline-light btn-sm",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\approve.js",
+            lineNumber: 63
+        },
+        __self: undefined
+    }, "View"))))))));
 };
 _s(approve, "DeK8srw36Q9Nr5ngZj4OkfmylzU=");
 exports.default = approve;
@@ -39670,50 +39774,50 @@ const Product = ({ product  })=>{
     }
     return(/*#__PURE__*/ _reactDefault.default.createElement("tbody", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\Product.js",
             lineNumber: 45
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("tr", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\Product.js",
             lineNumber: 46
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("th", {
         scope: "row",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\Product.js",
             lineNumber: 47
         },
         __self: undefined
     }, "1"), /*#__PURE__*/ _reactDefault.default.createElement("td", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\Product.js",
             lineNumber: 48
         },
         __self: undefined
     }, product.title), /*#__PURE__*/ _reactDefault.default.createElement("td", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\Product.js",
             lineNumber: 49
         },
         __self: undefined
     }, product.speaker), /*#__PURE__*/ _reactDefault.default.createElement("td", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\Product.js",
             lineNumber: 50
         },
         __self: undefined
     }, product.date), /*#__PURE__*/ _reactDefault.default.createElement("td", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\Product.js",
             lineNumber: 51
         },
         __self: undefined
     }, product.type), /*#__PURE__*/ _reactDefault.default.createElement("td", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\Product.js",
             lineNumber: 52
         },
         __self: undefined
@@ -39721,13 +39825,13 @@ const Product = ({ product  })=>{
         onClick: ApproveState,
         class: "btn btn-success",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\Product.js",
             lineNumber: 53
         },
         __self: undefined
     }, "Approve")), /*#__PURE__*/ _reactDefault.default.createElement("td", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\Product.js",
             lineNumber: 57
         },
         __self: undefined
@@ -39735,7 +39839,7 @@ const Product = ({ product  })=>{
         onClick: RejectState,
         class: "btn btn-danger",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\approve\\Product.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\approve\\Product.js",
             lineNumber: 58
         },
         __self: undefined
@@ -39769,106 +39873,264 @@ var _reactRouterDom = require("react-router-dom");
 const LoginButton = ()=>{
     return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
             lineNumber: 6
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
             lineNumber: 7
         },
         __self: undefined
     }), " ", /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
             lineNumber: 7
         },
         __self: undefined
     }), " ", /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
             lineNumber: 7
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
         className: "Container d-flex justify-content-center row-hl",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
             lineNumber: 8
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
             lineNumber: 9
         },
         __self: undefined
-    }, "Select User Type")), /*#__PURE__*/ _reactDefault.default.createElement("div", {
-        className: "Container",
+    }, "Select User Type")), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
             lineNumber: 11
         },
         __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
-        to: "/Admin/Login",
+    }), " ", /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 11
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "container",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
             lineNumber: 12
         },
         __self: undefined
-    }, /*#__PURE__*/ _reactDefault.default.createElement("button", {
-        class: "btn btn-dark btn-block",
-        type: "button",
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "row",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
             lineNumber: 13
         },
         __self: undefined
-    }, "Admin")), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "col-md-3",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 14
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card text-center bg-warning text-white mb-3",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 15
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card-body",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 16
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
             lineNumber: 17
         },
         __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("button", {
-        class: "btn btn-dark btn-block",
-        type: "button",
+    }, "User"), /*#__PURE__*/ _reactDefault.default.createElement("h4", {
+        class: "display-4",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
             lineNumber: 18
         },
         __self: undefined
-    }, "User"), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+    }, /*#__PURE__*/ _reactDefault.default.createElement("i", {
+        class: "fas fa-users",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 19
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
+        to: "/Admin/Login",
+        class: "btn btn-outline-light btn-sm",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
             lineNumber: 21
         },
         __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("button", {
-        class: "btn btn-dark btn-block",
-        type: "button",
+    }, "Login")))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "col-md-3",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
-            lineNumber: 22
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 27
         },
         __self: undefined
-    }, "Reviewer"), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card text-center bg-warning text-white mb-3",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
-            lineNumber: 25
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 28
         },
         __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("button", {
-        class: "btn btn-dark btn-block",
-        type: "button",
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card-body",
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\LoginButton.js",
-            lineNumber: 26
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 29
         },
         __self: undefined
-    }, "Editor"))));
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 30
+        },
+        __self: undefined
+    }, "Admin"), /*#__PURE__*/ _reactDefault.default.createElement("h4", {
+        class: "display-4",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 31
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("i", {
+        class: "fas fa-users",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 32
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
+        to: "/Admin/Login",
+        class: "btn btn-outline-light btn-sm",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 34
+        },
+        __self: undefined
+    }, "Login")))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "col-md-3",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 40
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card text-center bg-warning text-white mb-3",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 41
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card-body",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 42
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 43
+        },
+        __self: undefined
+    }, "Editor"), /*#__PURE__*/ _reactDefault.default.createElement("h4", {
+        class: "display-4",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 44
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("i", {
+        class: "fas fa-users",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 45
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
+        to: "/Admin/Login",
+        class: "btn btn-outline-light btn-sm",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 47
+        },
+        __self: undefined
+    }, "Login")))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "col-md-3",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 53
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card text-center bg-warning text-white mb-3",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 54
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card-body",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 55
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 56
+        },
+        __self: undefined
+    }, "Reviewer"), /*#__PURE__*/ _reactDefault.default.createElement("h4", {
+        class: "display-4",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 57
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("i", {
+        class: "fas fa-users",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 58
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement(_reactRouterDom.Link, {
+        to: "/Admin/Login",
+        class: "btn btn-outline-light btn-sm",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\LoginButton.js",
+            lineNumber: 60
+        },
+        __self: undefined
+    }, "Login"))))))));
 };
 _c = LoginButton;
 exports.default = LoginButton;
@@ -39894,6 +40156,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
 var _axios = require("axios");
 var _axiosDefault = parcelHelpers.interopDefault(_axios);
+var _reactBootstrap = require("react-bootstrap");
 var _s = $RefreshSig$();
 const singleConference = ({ match  })=>{
     _s();
@@ -39910,35 +40173,247 @@ const singleConference = ({ match  })=>{
     }, []);
     return(/*#__PURE__*/ _reactDefault.default.createElement("div", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\singleConference.js",
-            lineNumber: 21
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 22
         },
         __self: undefined
     }, /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\singleConference.js",
-            lineNumber: 22
-        },
-        __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
-        __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\singleConference.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
             lineNumber: 23
         },
         __self: undefined
     }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\singleConference.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
             lineNumber: 24
         },
         __self: undefined
-    }), /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
         __source: {
-            fileName: "C:\\Users\\dasit\\OneDrive\\Desktop\\af\\AF\\front\\src\\component\\home\\singleConference.js",
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
             lineNumber: 25
         },
         __self: undefined
-    }, conference.title)));
+    }), /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        class: "text-center",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 26
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("u", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 27
+        },
+        __self: undefined
+    }, conference.title)), /*#__PURE__*/ _reactDefault.default.createElement(_reactBootstrap.Container, {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 30
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("table", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 31
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("tbody", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 32
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("tr", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 33
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 34
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        className: "p-3 w-75",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 35
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("table", {
+        class: "table table-dark",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 36
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("thead", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 37
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("tr", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 38
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement("tbody", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 40
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("tr", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 41
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("th", {
+        scope: "row",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 42
+        },
+        __self: undefined
+    }, "1"), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 43
+        },
+        __self: undefined
+    }, "TITLE"), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 44
+        },
+        __self: undefined
+    }, conference.title)), /*#__PURE__*/ _reactDefault.default.createElement("tr", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 46
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("th", {
+        scope: "row",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 47
+        },
+        __self: undefined
+    }, "2"), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 48
+        },
+        __self: undefined
+    }, "SPEAKER"), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 49
+        },
+        __self: undefined
+    }, conference.speaker)), /*#__PURE__*/ _reactDefault.default.createElement("tr", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 51
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("th", {
+        scope: "row",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 52
+        },
+        __self: undefined
+    }, "3"), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 53
+        },
+        __self: undefined
+    }, "DATE"), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 54
+        },
+        __self: undefined
+    }, conference.date)), /*#__PURE__*/ _reactDefault.default.createElement("tr", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 56
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("th", {
+        scope: "row",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 57
+        },
+        __self: undefined
+    }, "4"), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 58
+        },
+        __self: undefined
+    }, "DISCRIPTION"), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 59
+        },
+        __self: undefined
+    }, conference.discription)))))), /*#__PURE__*/ _reactDefault.default.createElement("td", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 65
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h2", {
+        class: "text-center",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 66
+        },
+        __self: undefined
+    }, "SPEAKER"), /*#__PURE__*/ _reactDefault.default.createElement("img", {
+        src: require("url:./avatar.png"),
+        width: "300",
+        height: "300",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 67
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 72
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("button", {
+        class: "btn btn-primary btn-lg",
+        type: "button",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 73
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("i", {
+        class: "fas fa-user",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\home\\singleConference.js",
+            lineNumber: 74
+        },
+        __self: undefined
+    }), " About Mr/Miss ", conference.speaker))))))));
 };
 _s(singleConference, "jC2EYWVvUGewk+0A6zgTIEwCeSQ=");
 exports.default = singleConference;
@@ -39948,6 +40423,516 @@ exports.default = singleConference;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"3b2NM","react-router-dom":"1PMSK","axios":"7rA65","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}]},["1j6wU","2E5op","4ee1I"], "4ee1I", "parcelRequirec7cd")
+},{"react":"3b2NM","react-router-dom":"1PMSK","axios":"7rA65","react-bootstrap":"4n7hB","url:./avatar.png":"30KVT","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"30KVT":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "avatar.4a507db0.png";
+
+},{"./bundle-url":"3seVR"}],"3seVR":[function(require,module,exports) {
+"use strict";
+/* globals document:readonly */ var bundleURL = null;
+function getBundleURLCached() {
+    if (!bundleURL) bundleURL = getBundleURL();
+    return bundleURL;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
+        if (matches) return getBaseURL(matches[0]);
+    }
+    return '/';
+}
+function getBaseURL(url) {
+    return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    let matches = ('' + url).match(/(https?|file|ftp):\/\/[^/]+/);
+    if (!matches) throw new Error('Origin not found');
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"5jWDR":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const caption = ()=>{
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 5
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        width: "100%",
+        class: "bg-dark",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 6
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "col-sm-8 m-auto",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 7
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        id: "slider4",
+        class: "carousel slide mb-5",
+        "data-ride": "carousel",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 8
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("ol", {
+        class: "carousel-indicators",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 9
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("li", {
+        class: "active",
+        "data-target": "#slider4",
+        "data-slide-to": "0",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 10
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("li", {
+        "data-target": "#slider4",
+        "data-slide-to": "1",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 11
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("li", {
+        "data-target": "#slider4",
+        "data-slide-to": "2",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 12
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "carousel-inner",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 14
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "carousel-item active",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 15
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
+        class: "d-block img-fluid",
+        src: require("url:./img/1.jpg"),
+        alt: "First Slide",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 16
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "carousel-caption d-none d-md-block",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 21
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 22
+        },
+        __self: undefined
+    }, "Slide One"), /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 23
+        },
+        __self: undefined
+    }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?"))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "carousel-item",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 29
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
+        class: "d-block img-fluid",
+        src: require("url:./img/2.jpg"),
+        alt: "Second Slide",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 30
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "carousel-caption d-none d-md-block",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 35
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 36
+        },
+        __self: undefined
+    }, "Slide Two"), /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 37
+        },
+        __self: undefined
+    }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?"))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "carousel-item",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 43
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("img", {
+        class: "d-block img-fluid",
+        src: require("url:./img/3.jpg"),
+        alt: "Third Slide",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 44
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "carousel-caption d-none d-md-block",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 49
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 50
+        },
+        __self: undefined
+    }, "Slide Three"), /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 51
+        },
+        __self: undefined
+    }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?")))), /*#__PURE__*/ _reactDefault.default.createElement("a", {
+        href: "#slider4",
+        class: "carousel-control-prev",
+        "data-slide": "prev",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 59
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("span", {
+        class: "carousel-control-prev-icon",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 60
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement("a", {
+        href: "#slider4",
+        class: "carousel-control-next",
+        "data-slide": "next",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 63
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("span", {
+        class: "carousel-control-next-icon",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\caption\\caption.js",
+            lineNumber: 64
+        },
+        __self: undefined
+    })))))));
+};
+exports.default = caption;
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"3b2NM","url:./img/1.jpg":"3HPFR","url:./img/2.jpg":"7tI4p","url:./img/3.jpg":"2stYl","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3HPFR":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "1.dde79693.jpg";
+
+},{"./bundle-url":"3seVR"}],"7tI4p":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "2.d7a64657.jpg";
+
+},{"./bundle-url":"3seVR"}],"2stYl":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "3.3c26116e.jpg";
+
+},{"./bundle-url":"3seVR"}],"4pwCL":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const profile = ()=>{
+    return(/*#__PURE__*/ _reactDefault.default.createElement(_reactDefault.default.Fragment, {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 5
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("header", {
+        id: "main-header",
+        class: "py-2 bg-primary text-white",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 6
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "container",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 7
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "row",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 8
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "col-md-6",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 9
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h1", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 10
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("i", {
+        class: "fas fa-user",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 11
+        },
+        __self: undefined
+    }), " Admin Profile"))))), /*#__PURE__*/ _reactDefault.default.createElement("br", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 17
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("section", {
+        id: "profile",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 18
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "container",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 19
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "row",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 20
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "col-md-9",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 21
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 22
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card-header",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 23
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h4", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 24
+        },
+        __self: undefined
+    }, "Profile")), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "card-body",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 26
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("form", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 27
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "form-group",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 28
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
+        for: "name",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 29
+        },
+        __self: undefined
+    }, "Name"), /*#__PURE__*/ _reactDefault.default.createElement("input", {
+        type: "text",
+        class: "form-control",
+        value: "Brad Traversy",
+        readOnly: true,
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 30
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "form-group",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 37
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
+        for: "email",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 38
+        },
+        __self: undefined
+    }, "Email"), /*#__PURE__*/ _reactDefault.default.createElement("input", {
+        type: "email",
+        class: "form-control",
+        value: "test@test.com",
+        readOnly: true,
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 39
+        },
+        __self: undefined
+    })), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "form-group",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 46
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("label", {
+        for: "bio",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 47
+        },
+        __self: undefined
+    }, "Bio"), /*#__PURE__*/ _reactDefault.default.createElement("p", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 48
+        },
+        __self: undefined
+    }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid unde at fugiat explicabo temporibus, tempora animi sunt iusto quod beatae optio veritatis velit natus odit error! Possimus esse quisquam quibusdam eveniet autem! Minus dolore quisquam nemo similique doloribus perspiciatis tempore.")))))), /*#__PURE__*/ _reactDefault.default.createElement("div", {
+        class: "col-md-3",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 61
+        },
+        __self: undefined
+    }, /*#__PURE__*/ _reactDefault.default.createElement("h3", {
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 62
+        },
+        __self: undefined
+    }, "Your Avatar"), /*#__PURE__*/ _reactDefault.default.createElement("img", {
+        src: require("url:./img/avatar.png"),
+        alt: "",
+        class: "d-block img-fluid mb-3",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 63
+        },
+        __self: undefined
+    }), /*#__PURE__*/ _reactDefault.default.createElement("button", {
+        class: "btn btn-primary btn-block",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 68
+        },
+        __self: undefined
+    }, "Edit Image"), /*#__PURE__*/ _reactDefault.default.createElement("button", {
+        class: "btn btn-danger btn-block",
+        __source: {
+            fileName: "D:\\AF_Clone_Final\\AF\\front\\src\\component\\proflie\\profile.js",
+            lineNumber: 69
+        },
+        __self: undefined
+    }, "Delete Image")))))));
+};
+exports.default = profile;
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"3b2NM","url:./img/avatar.png":"736Yv","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"736Yv":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "avatar.13392ba0.png";
+
+},{"./bundle-url":"3seVR"}]},["1j6wU","2E5op","4ee1I"], "4ee1I", "parcelRequirec7cd")
 
 //# sourceMappingURL=index.fd532818.js.map
