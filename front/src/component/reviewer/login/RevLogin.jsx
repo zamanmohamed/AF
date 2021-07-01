@@ -30,7 +30,7 @@ class RevLogin extends Component {
         }
         login(reviewer).then(res=>{
             if(res){
-                this.props.history.push(`/RevStartUp`)
+                this.props.history.push(`/rev/RevStartUp`)
             }
         })
     }
