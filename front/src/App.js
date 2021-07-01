@@ -21,6 +21,7 @@ import Profile from "./component/proflie/profile";
 
 //Reviewer Home
 import RevHome from "./component/reviewer/home/RevHome";
+import RevStartUp from "./component/reviewer/home/RevHomeImg";
 
 //reviewer Research paper
 import RevNewResearch from "./component/reviewer/research/RevNewResearch";
@@ -84,7 +85,10 @@ const App = () => {
       </Route>
       <Route path="/rev/register" exact>
         <RevRegister />
-      </Route>   
+      </Route>  
+      <Route path="/rev/RevStartUp" exact>
+        <RevStartUp />
+      </Route>  
       
       //Reviewer Home 
 
