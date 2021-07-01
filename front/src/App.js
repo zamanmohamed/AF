@@ -22,6 +22,12 @@ import Profile from "./component/proflie/profile";
 //Reviewer Home
 import RevHome from "./component/reviewer/home/RevHome";
 
+//reviewer Research paper
+import RevNewResearch from "./component/reviewer/research/RevNewResearch";
+import RevOldResearch from "./component/reviewer/research/RevOldResearch";
+import RevApproveResearch from "./component/reviewer/research/RevApproveResearch.jsx";
+import RevResearchPaper from "./component/reviewer/research/RevResearchPaper";
+
 
 
 
@@ -78,7 +84,25 @@ const App = () => {
       <Route path="rev/researchpaper/last/:id" exact>
         <RevHome />
       </Route>
-      
+
+      //Reviewer Research paper
+
+      <Route path="/rev/research/underreview" exact>
+        <RevNewResearch />
+      </Route>
+
+      <Route path=""/rev/research/reviewed" exact>
+        <RevOldResearch />
+      </Route>
+
+      <Route path="/rev/researchpaper/update/:id" exact>
+        <RevApproveResearch />
+      </Route>
+
+      <Route path="/rev/researchpaper/:id" exact>
+        <RevResearchPaper />
+      </Route>
+
       */}
 
     </React.Fragment>
