@@ -28,6 +28,13 @@ import RevOldResearch from "./component/reviewer/research/RevOldResearch";
 import RevApproveResearch from "./component/reviewer/research/RevApproveResearch.jsx";
 import RevResearchPaper from "./component/reviewer/research/RevResearchPaper";
 
+//reviewer workshop proposal
+
+import RevNewWorkshop from "./component/reviewer/workshop/RevNewWorkshops";
+import RevOldWorkshop from "./component/reviewer/workshop/RevOldWorkshops";
+import RevApproveWorkshop from "./component/reviewer/workshop/RevApproveWorkshop.jsx";
+import RevWorkshopProposal from "./component/reviewer/workshop/RevWorkshopProposal";
+
 
 
 
@@ -90,17 +97,28 @@ const App = () => {
       <Route path="/rev/research/underreview" exact>
         <RevNewResearch />
       </Route>
-
       <Route path=""/rev/research/reviewed" exact>
         <RevOldResearch />
       </Route>
-
       <Route path="/rev/researchpaper/update/:id" exact>
         <RevApproveResearch />
       </Route>
-
       <Route path="/rev/researchpaper/:id" exact>
         <RevResearchPaper />
+      </Route>
+
+        //reviewer Workshop proposal
+      <Route path="/rev/workshop/underreview" exact>
+        <RevNewWorkshop />
+      </Route>
+      <Route path=""/rev/workshop/reviewed" exact>
+        <RevOldWorkshop />
+      </Route>
+      <Route path="/rev/workshopproposal/update/:id" exact>
+        <RevApproveWorkshop />
+      </Route>
+      <Route path="/rev/workshopproposal/:id" exact>
+        <RevWorkshopProposal />
       </Route>
 
       */}
