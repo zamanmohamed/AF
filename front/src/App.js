@@ -19,6 +19,12 @@ import Profile from "./component/proflie/profile";
 // import RevLogin from "./component/reviewer/login/RevLogin.jsx";
 // import RevRegister from "./component/reviewer/login/RevRegister";
 
+//Reviewer Home
+import RevHome from "./component/reviewer/home/RevHome";
+
+
+
+
 const App = () => {
   return (
     <React.Fragment>
@@ -53,7 +59,11 @@ const App = () => {
 
       {/* Reviewer */}
       
-      {/* <Route path="/" exact>
+      {/* 
+
+      //Reviewer Login
+      
+      <Route path="/" exact>
         <RevLanding />
       </Route>
       <Route path="/rev/login" exact>
@@ -61,7 +71,15 @@ const App = () => {
       </Route>
       <Route path="/rev/register" exact>
         <RevRegister />
-      </Route>   */}
+      </Route>   
+      
+      //Reviewer Home 
+
+      <Route path="rev/researchpaper/last/:id" exact>
+        <RevHome />
+      </Route>
+      
+      */}
 
     </React.Fragment>
   );
